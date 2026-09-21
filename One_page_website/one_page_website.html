@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamad Auto World</title>
+</head>
+<body>
+
+    <!-- F. <nav> element with HTML bookmarks -->
+    <nav>
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Showroom</a></li>
+            <li><a href="#videos">Featured Review</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- A. Home page section -->
+    <section id="home">
+        <h1>Welcome to Mohamad Auto World</h1>
+        <p>Your ultimate destination for automotive passion, high-performance vehicles, and cutting-edge car reviews. Explore the latest models, timeless classics, and future electric mobility all in one place.</p>
+    </section>
+
+    <hr>
+
+    <!-- B. Section with pictures -->
+    <section id="gallery">
+        <h2>Vehicle Showroom</h2>
+        <p>Check out some of our featured models:</p>
+        <div>
+            <img src="images/honda.jpg" alt="Honda Car" style="width: 300px; height: auto;"><br>
+            <img src="images/mercedes.jpg" alt="Mercedes-Benz Car" style="width: 300px; height: auto;"><br>
+            <img src="images/toyota.jpg" alt="Toyota Car" style="width: 300px; height: auto;">
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- D. Section with a video(s) -->
+    <section id="videos">
+        <h2>Featured Car Review</h2>
+        <p>Watch our detailed walk-around and test drive preview:</p>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="Automobile Review Video" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <hr>
+
+    <!-- C. Contact form -->
+    <section id="contact">
+        <h2>Schedule a Test Drive / Contact Us</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div>
+                <label for="tel">Phone Number:</label><br>
+                <input type="tel" id="tel" name="tel" required>
+            </div>
+            <br>
+            <div>
+                <label for="model">Interested Car Model / Inquiry:</label><br>
+                <textarea id="model" name="model" rows="4" cols="40" required></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- E. Footer -->
+    <footer>
+        <p>&copy; 2026 Apex Auto World. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
